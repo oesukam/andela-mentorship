@@ -1,0 +1,42 @@
+{
+  "name": "mentorship",
+  "version": "1.0.0",
+  "description": "Mentorship Program",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel-watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oesukam/mentorship.git"
+  },
+  "keywords": [
+    "Mentorhsip"
+  ],
+  "author": "Olivier Esuka <oesukam@gmail.com> (https://oesukam.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oesukam/mentorship/issues"
+  },
+  "homepage": "https://github.com/oesukam/mentorship#readme",
+  "dependencies": {
+    "celebrate": "^10.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.0",
+    "method-override": "^3.0.0",
+    "morgan": "^1.9.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/runtime": "^7.6.0",
+    "babel-preset-airbnb": "^4.0.1",
+    "babel-watch": "^7.0.0",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
